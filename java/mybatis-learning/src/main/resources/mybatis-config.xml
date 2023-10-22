@@ -9,7 +9,7 @@
     </settings>
 
     <typeAliases>
-        <package name="com.homejim.mybatis.entity"/>
+        <package name="org.learning.entity"/>
     </typeAliases>
 
     <environments default="development">
