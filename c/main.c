@@ -36,10 +36,10 @@ int main(int argc,  char* argv[])
     //设置掩码位
     umask(0);
 
-    int drop_fd=open( "/dev/null", O_RDWR );
+  /*  int drop_fd=open( "/dev/null", O_RDWR );
     dup2(0, drop_fd);
     dup2(1, drop_fd);
-    dup2(2, drop_fd);
+    dup2(2, drop_fd);*/
 
     //切换工作路径
     chdir("/");
